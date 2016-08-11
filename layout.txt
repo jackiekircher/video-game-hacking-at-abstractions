@@ -1,0 +1,42 @@
+
+Big Topics
+
+  What you need to know about assembly
+    hex and bits
+    data representation in computers - bytes, words, dwords, doubles, floats
+    registers
+    machine code
+      translate directly into bits
+      x86 assembly instructions
+        add
+        mov
+        cmp
+        jmp
+        call
+
+  Cheat Engine
+    memory scanning
+    hex dumps
+    pointer scanning
+      what are pointers?
+    finding pointers by hand
+    patching
+      inline
+      hooks
+    making a trainer
+
+
+Lightning Talk Intro
+  talk title
+  introduce spelunky
+  why I wanted to hack it
+  ? specorgi
+  cheat engine
+    what can it do for you?
+  where can you find me
+  invite to play
+
+
+Rotating Slides
+
+  resources

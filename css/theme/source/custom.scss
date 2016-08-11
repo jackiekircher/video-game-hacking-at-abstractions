@@ -1,0 +1,30 @@
+.reveal {
+  h1.solo {
+    font-size: 4em;
+  }
+
+  p.contact {
+    margin-top: 200px;
+    text-align: right;
+  }
+
+  p.large {
+    font-size: 3.5rem;
+  }
+
+  .in-place-fragments {
+    position: relative;
+    height: 200px;
+
+    .fragment {
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
+
+.reveal.center .slides {
+  section {
+    min-height: 200px !important;
+  }
+}
