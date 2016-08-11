@@ -1,3 +1,7 @@
+.reveal .controls {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid black; }
+
 .reveal h1.solo {
   font-size: 4em; }
 
