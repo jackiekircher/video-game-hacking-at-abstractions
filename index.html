@@ -37,6 +37,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+        <!-- title slide -->
 				<section>
 					<h1>Video Game Hacking</h1>
 					<h2>Memory Introspection For Fun</h2>
@@ -47,9 +48,15 @@
               <a href="http://jackiekircher.com">jackiekircher.com</a>
             </small>
           </p>
+
+          <aside class="notes">
+          </aside>
         </section>
+
+        <!-- introduce the game -->
         <section>
           <h1 class="solo">Spelunky</h1>
+
           <aside class="notes">
             Is a:
             <ul>
@@ -65,15 +72,20 @@
             </ul>
           </aside>
         </section>
-        <section class="maybe">
+
+        <!-- getting into modding -->
+        <section class="maybe" data-background="images/mine_bg.png">
           <h1>Specorgi</h1>
           <img class="spelunky-border left" src="images/specorgi-pug.png">
           <img class="spelunky-border right" src="images/specorgi-corgi.png">
+
+          <aside class="notes">
+            <p> </p>
+          </aside>
         </section>
-        <section data-background="images/mine_bg.png">
-          <h1>something here</h1>
-        </section>
-        <section>
+
+        <!-- how to mod -->
+        <section data-background="images/jungle_bg.png">
           <h1>Cheat Engine</h1>
           <div class="in-place-fragments">
             <p class="large fragment current-visible">scan memory</p>
@@ -82,14 +94,40 @@
             <p class="large fragment current-visible">rewrite code</p>
             <p class="large fragment current-visible">export changes with Lua</p>
           </div>
+
+          <aside class="notes">
+            <p>Cheat Engine is a really powerful program that attaches to a running process and let's you peek at its memory.</p>
+          </aside>
         </section>
+
+        <!-- demo (video) of hex dump and value editing -->
         <section>
           <h1>Demo</h1>
+
+          <aside class="notes">
+            <p>Here's a preview of Cheat Engine in action. On the left
+            is the running game, and on the right are a some cheat
+            engine windows. The top window is a radar that tracks enemy
+            positions by polling map data, and the bottom is a live
+            memory dump of the player.</p>
+            <p>Notice when the player moves these two values change, and
+            when they collect items they're reflected in memory here.</p>
+          </aside>
         </section>
-        <section>
+
+        <!-- tell people my location -->
+        <section data-background="images/ice_bg.png">
           <h1>Where I Am</h1>
+
+          <aside class="notes">
+            <p>If you want to see more I'll be at this corner of this
+            room. I'll have the game running for you to interact with
+            and maybe you can find some values that I haven't!</p>
+          </aside>
         </section>
-				<section>
+
+        <!-- call to action -->
+				<section data-background="images/temple_bg.png">
           <h1>Come break some games!</h1>
 
           <aside class="notes">
