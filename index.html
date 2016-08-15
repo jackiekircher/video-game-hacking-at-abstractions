@@ -46,7 +46,7 @@
           </p>
 
           <aside class="notes">
-            an interactive demo about video game hacking by using memory introspection to look under the hood of your favorite games/programs.
+            an interactive demo about video game hacking by using memory introspection to look at and change the memory of other programs while they're running.
           </aside>
         </section>
 
@@ -79,7 +79,7 @@
           </div>
 
           <aside class="notes">
-            <p>Cheat Engine is a really powerful program that attaches to a running process and let's you peek at its memory.</p>
+            <p>Cheat Engine is a really powerful tool that attaches to a another program and let's you peek at its memory.</p>
           </aside>
         </section>
 
@@ -95,19 +95,16 @@
           </div>
 
           <aside class="notes">
-            <p>Here's a preview of Cheat Engine in action. On the left
-            is the running game, and on the right are a some cheat
-            engine windows. The top window is a radar that tracks enemy
-            positions by polling map data, and the bottom is a live
-            memory dump of the player.</p>
-            <p>Notice when the player moves these two values change, and
-            when they collect items they're reflected in memory here.</p>
+            <p>Here's a preview of all of this in action. This is video of me playing Spelunky.</p>
+            <p>on right, cheat engine interface. top is memory scanner. bottom is cheat table - list of memory locations I've discovered and what valuues they hold.</p>
+            <p>top center, hex dump. raw memory. this particular section is part of the game state. has player's health, items, inventory, and enemies defeated. whenever value changes it flashes red.</p>
+            <p>top left, radar. Lua program I wrote, polls for enemy location draws it to a canvas. on github that you can run.</p>
           </aside>
         </section>
 
         <!-- call to action -->
 				<section data-background="images/temple_bg.png">
-          <h1>Come break some games!</h1>
+          <h1>let's hack some games!</h1>
 
           <aside class="notes">
             <p>I have all of this set up in the distractions hall for
