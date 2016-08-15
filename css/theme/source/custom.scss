@@ -31,6 +31,37 @@
       width: 100%;
     }
   }
+
+  .box-fragments {
+    position: fixed;
+    width: 100%;
+    height: 79%;
+    top: 7%;
+    left: 0;
+
+    .box-fragment {
+      position: absolute;
+      border: 6px solid red;
+    }
+  }
+
+  .large-video {
+    margin-top: -4%;
+    max-width: 110%;
+    margin-left: -5%;
+  }
+  .video-mat {
+    content: ' ';
+    position: absolute;
+    display: block;
+    z-index: -1;
+    width: 118%;
+    height: 90%;
+    top: 1.5%;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid black;
+    margin-left: -9%;
+  }
 }
 
 .reveal.center .slides {
